@@ -31,3 +31,4 @@ class HomePageAPIView(APIView):
             'headers': HeaderImageSerializer(headers, many=True).data,  # 👈 اضافه شد
         }
         return Response(data, status=status.HTTP_200_OK)
+print
